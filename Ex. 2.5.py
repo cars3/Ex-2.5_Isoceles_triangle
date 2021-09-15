@@ -7,7 +7,6 @@ C = np.array((1, 7, -2))
 AB = np.linalg.norm(A - B)
 BC = np.linalg.norm(B - C)
 AC = np.linalg.norm(A - C)
-print(AB, BC, AC)
 
 if AB == AC:
     print("With triangle ABC, this is an Isoceles Triangle")
